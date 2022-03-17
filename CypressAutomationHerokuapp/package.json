@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "AllTest": "cypress run",
+    "TestSpecific": "cypress run --spec cypress\\integration\\TestSuites\\HerokuappLogin_Test.js",
+    "TestSpecificWithHeaded": "cypress run --spec cypress\\integration\\TestSuites\\HerokuappLogin_Test.js --headed",
+    "TestSpecificWithBrowser": "cypress run --spec cypress\\integration\\TestSuites\\HerokuappLogin_Test.js --headed --browser chrome"
+  },
+  "author": "Madelyn",
+  "license": "ISC",
+  "devDependencies": {
+    "-": "0.0.1",
+    "cypress": "^9.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {},
+  "description": ""
+}
